@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    background-size: cover;
+    background-position:bottom;
+    
+}
+body{
+    width:75vw;
+    margin:auto;
+    font-family: monospace;
+    font-weight:bold;
+    color:rgb(80, 80, 80);
+}
+h1{
+    background-image: url("soupHedar.jpg");
+    height:80vh; 
+    text-align: center;
+    color:white;
+    line-height:80vh;
+    font-size: 4rem;
+}
+header{
+    height:100vh;
+}
+img{
+    position: relative;
+    
+    left:50%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.soup{
+    position: relative;
+    bottom:150px;
+    left:50%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.description{
+    margin-top:100px;
+}
+p,article{
+  color:rgb(72, 72, 72);
+  padding-left:50px;
+  padding-right:50px;
+  font-size: 1rem;
+  
+}
+
+ul,.scnd-prg{
+    padding-left:30px;
+}
+
+article{
+    height:80vh;
+    padding:auto;
+}
+
+h2{
+    padding:15px;
+    border-radius:1000px;
+    background:rgb(255, 213, 135);
+    width:150px;
+    
+
+}
